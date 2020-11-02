@@ -1,0 +1,25 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    article{
+        grid-template-areas:
+        's1'
+        's2'
+        's3'
+        'a1'
+        'a2'   
+       ;
+       background-color: rosybrown;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+    article{
+        grid-template-areas:
+        's1 s2 a1'
+        's3 a2 .'
+        
+       ;
+       background-color: royalblue;
+}
